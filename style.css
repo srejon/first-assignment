@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+.navbar {
+    background: rgb(40, 40, 44);
+    padding: 15px 50px;
+    border-bottom: 1px solid #904aff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    color: rgb(96, 96, 255);
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 0 10px;
+}
+.nav-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.nav-links a:hover, .nav-links a.active {
+    color: dodgerblue;
+}
+.sign {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(82, 82, 199);
+    border: 1px solid white;
+    padding: 6px 20px;
+    border-radius: 20px;
+}
+.sign a {
+    color: #e2e0e0;
+    text-decoration: none;
+}
+.sign:hover {
+    background-color: rgb(67, 42, 107);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    background-color: #ffffff;
+}
+h1 {
+    font-size: 48px;
+    color: #2d1130;
+    margin-bottom: 20px;
+  }
+.banner-content {
+    flex: 1;
+}
+.banner-image img {
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.banner-btn {
+    background-color: #b80dfc;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 15px;
+}
+.banner-btn:hover {
+    background-color: #892197;
+}
+
+.partnership {
+    padding: 50px 0;
+    text-align: center;
+}
+.title1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #253136;
+    
+}
+.subtitle1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #363636;
+    margin-bottom: 30px;
+    
+}
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.client-logo {
+    width: 150px;
+    height: 40px;
+}
+
+.power-block {
+    text-align: center;
+    margin-top: 50px;
+}
+.title2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #384150;
+    margin-bottom: 10px;
+}
+.subtitle2 {
+    font-size: 18px;
+    color: #3f2e2e;
+    margin-bottom: 30px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.info {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.information img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.information-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.information-description {
+    font-size: 14px;
+    color: #4a454b;
+}
+
+.help-block {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 40px;
+}
+.title3 {
+    font-size: 35px;
+    color: #2a1f36;
+}
+.subtitle3 {
+    font-size: 16px;
+    color: #241f27;
+    margin-bottom: 50px;
+}
+.infrastructure {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.build {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.build img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.build img:hover {
+    background-color: greenyellow;
+}
+.build p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.build span {
+    font-size: 14px;
+    color: #666666;
+}
+
+.future-block {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.img-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img-card img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.img-card p {
+    margin: 20px 0;
+
+}
+.readme {
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    padding: 2em;
+    margin-top: 60px;
+}
+
+.contact-image img {
+    width: 98%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 1em;
+    background-color: #d6d5d5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+.contact-form button {
+    background-color: #1b161d;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+
+.contact-form button:hover {
+    background-color: #681430;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #241527;
+}
+
+footer p {
+    color: rgb(194, 189, 175);
+}
+
+.footer div {
+    flex: 1;
+}
+
+.footer div h3 {
+    margin-bottom: 10px;
+    color: rgb(253, 253, 253);
+}
+
+.footer div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer div ul li {
+    margin-bottom: 5px;
+}
+
+.footer .footer-logo {
+    text-align: left;
+}
+
+.footer .footer-logo p {
+    margin: 5px 0;
+}
+.footer-logo img {
+    height: 40px;
+    width: 40px;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .social-icons a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer .social-icons a img {
+    height: 30px;
+    width: 30px;
+}
+.company-section a, .resource-section a {
+    color: rgb(197, 192, 186);
+    text-decoration: none;
+}
+
+.footer .email-section input[type="email"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer .email-section button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4a5568;
+    color: #ffffff;
+}
+
+
+@media (max-width: 800px) {
+
+    .navbar {
+        
+        display: block;
+    }
+    .banner {
+        display: block;;
+    }
+    .partnership {
+        display: block;
+    }
+    .power-block {
+        display: block;
+    }
+    .help-block {
+        display: block;
+    }
+    .future-block {
+        display: block;
+    }
+    .contact {
+        display: block;
+    }
+
+    .footer {
+        display: block;
+    }
+
+}
